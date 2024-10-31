@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  background-color: #F0FEFB;
+}
+
+/* mobile styles */
+
+@media screen and (min-width: `375px) {
+  main{
+    width: 100%;
+  }
+  #upper{
+    width: 100%;
+    height: 50%;
+  }
+
+  #upper img{
+    width: 100%;
+  }
+ 
+
+  #lower{
+    width: 100%;
+    height: 60vh;
+    padding: 2rem;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .text-content{
+    width: 100%;
+    height: 70%;
+    background-color: white;
+  }
+  h3{
+   padding-bottom: 0.5rem;
+  }
+  .avatar-block{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .avatar-block img{
+    border-radius: 100px;
+  }
+
+  .avatar-desc h5{
+    color: black;
+  } 
+  p{
+    color: rgb(92, 91, 91);
+  }
+}
+
+/* Tablet styles */
+
+@media screen and (min-width: 768px) {
+  main{
+    width: 70%;
+    height: 100vh;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+  }
+  #upper{
+    width: 100%;
+    height: 50%;
+    border: 1px solid red;
+  }
+
+  #upper img{
+    width: 100%;
+    height: 100%;
+
+  }
+ 
+
+  #lower{
+    width: 100%;
+    height: 60vh;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    border: 1px solid black;
+  }
+  .text-content{
+    width: 100%;
+    height: 70%;
+    background-color: white;
+  }
+  h3{
+   padding-bottom: 0.5rem;
+  }
+  .avatar-block{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .avatar-block img{
+    border-radius: 100px;
+  }
+
+  .avatar-desc h5{
+    color: black;
+  } 
+  p{
+    color: rgb(92, 91, 91);
+  }
+
+  .button-group{
+    width: 70%;
+  }
+
+  .button-group button{
+    
+    color: white;
+    border: none;
+    border-radius: 25px;
+  }
+
+  .button-group .download{
+    background-color: blueviolet;
+    height: 40px;
+  }
+.button-group .help{
+  background-color: blue;
+  height: 40px;
+}
+}
